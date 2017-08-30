@@ -1,4 +1,4 @@
-package com.lx;
+package com.lx.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
