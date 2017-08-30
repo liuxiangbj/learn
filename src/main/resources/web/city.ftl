@@ -3,9 +3,14 @@
 <html lang="en">
 
 <body>
-    City: ${city.cityName}! <br>
-    Q:Why I like? <br>
-    A:${city.description}!
+    <#if city?? >
+        City: ${city.cityName}! <br>
+        Q:Why I like? <br>
+        A:${city.description}!
+    <#else>
+        NO！NO！NO！ <br>
+    </#if>
+
 </body>
 
 </html>
